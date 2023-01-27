@@ -5,9 +5,10 @@
     font-family: 'Inconsolata', monospace;
 }
 
+
 .navbar{
     background:#131313;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -29,8 +30,8 @@
 }
 
 #navbar_logo{
-    background-color: #8000ff;
-    background-image: linear-gradient(to top, #8000ff 30%,#0000FF 100%);
+    background-color: #c3baba;
+    /* background-image: linear-gradient(to top, #8000ff 30%,#0000FF 100%); */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -40,7 +41,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .fa-gem{
@@ -103,7 +104,7 @@
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1030px){
 
     .navbar_container{
         display: flex;
@@ -112,7 +113,7 @@
         z-index: 1;
         width: 100%;
         max-width: 1300px;
-        padding:0;
+        padding: 0;
     }
 
     .navbar_menu{
@@ -167,7 +168,7 @@
 
     #mobile-menu {
         position: absolute;
-        top: 20%;
+        top: 30%;
         right: 5%;
         transform: translate(5%,20%);
     }
@@ -202,6 +203,7 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
 
 .uni{
     background-color: #141414;
