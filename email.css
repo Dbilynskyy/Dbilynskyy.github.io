@@ -254,6 +254,16 @@
     background-size: 100%;
 }
 
+.email_email {
+    font-size: 2rem;
+    border: none;
+    border-radius: 3px;
+    size: 4rem;
+    background-color: rgb(158, 182, 253);
+    color: #FFFF;
+    background-size: 100%;
+}
+
 .email_message {
     resize: none;
     border-radius: 3px;
