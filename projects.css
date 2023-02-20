@@ -286,11 +286,11 @@
     }
 
     .java_content h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .java_content p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
 }
@@ -303,11 +303,11 @@
     }
 
     .java_content h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .java_content p{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-top: 1.5rem;
     }
 
@@ -413,11 +413,11 @@
     }
 
     .javascript_content h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .javascript_content p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
 }
@@ -430,17 +430,12 @@
     }
 
     .javascript_content h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .javascript_content p{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-top: 1.5rem;
-    }
-
-    .javascript_btn{
-        padding: 12px 36px;
-        margin: 2.5rm 0;
     }
 }
 
@@ -542,6 +537,7 @@
 #python_img {
     height: 90%;
     width: 90%;
+    border-radius: 18px;
 }
 
 @media screen and (max-width: 768px){
@@ -566,11 +562,11 @@
     }
 
     .python_content h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .python_content p{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 1rem;
     }
 }
@@ -583,11 +579,11 @@
     }
 
     .python_content h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .python_content p{
-        font-size: 2rem;
+        font-size: 1rem;
         margin-top: 1.5rem;
     }
 
