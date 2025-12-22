@@ -30,8 +30,9 @@
         style={{ borderColor: "var(--border)", background: "var(--surface)" }}
       >
         <p style={{ color: "var(--muted)" }}>
-          Add a concise, recruiter-friendly summary here: roles, strengths, and preferred domains.
+          Full-stack software engineer experienced in building scalable backends and polished frontends using .NET (C#), Django/Python, and React/TypeScript. Strengths include clean architecture, performance optimisation, test-driven development, and production data/ML pipelines. Personal interests include Web3 and blockchain tooling, ML/NLP and data engineering, or end to end product delivery where I can contribute to system design, deployment, and cross functional collaboration.
         </p>
+
       </div>
     </section>
   );
