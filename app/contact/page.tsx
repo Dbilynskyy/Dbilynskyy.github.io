@@ -39,8 +39,23 @@ export default function ContactPage() {
           className="rounded-2xl border p-6 space-y-4"
           style={{ borderColor: "var(--border)", background: "var(--surface)" }}
           method="POST"
-          action="https://formspree.io/f/YOUR_FORM_ID"
+          action="https://formspree.io/f/xrezynpl"
         >
+          {/* Anti-spam honeypot (bots tend to fill this) */}
+          <input
+            type="text"
+            name="_gotcha"
+            tabIndex={-1}
+            autoComplete="off"
+            style={{ display: "none" }}
+          />
+
+          {/* Optional: email subject line */}
+          <input type="hidden" name="_subject" value="New message from portfolio contact form" />
+
+          {/* Optional: send the user back to your site after submit */}
+          <input type="hidden" name="_redirect" value="/contact?sent=1" />
+
           <div>
             <label className="text-sm font-medium" htmlFor="name">Name</label>
             <input
@@ -64,6 +79,9 @@ export default function ContactPage() {
             />
           </div>
 
+          {/* Optional: makes "Reply" go to the sender in many setups */}
+          <input type="hidden" name="_replyto" value="%{email}" />
+
           <div>
             <label className="text-sm font-medium" htmlFor="message">Message</label>
             <textarea
@@ -83,11 +101,8 @@ export default function ContactPage() {
           >
             Send message
           </button>
-
-          <p className="text-xs" style={{ color: "var(--muted)" }}>
-            Note: replace the form action with your Formspree/Basin endpoint.
-          </p>
         </form>
+
       </div>
     </section>
   );
