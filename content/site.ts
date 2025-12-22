@@ -11,6 +11,6 @@
   hero: {
     headline: "I build reliable, user-focused software.",
     subheadline:
-      "I'm a software developer with a focus on clean architecture, performance, and accessible UX. Here are projects that show how I think and what I've created."
+      "I'm a full stack software developer specialising in clean architecture, scalable backends, performant frontends, and accessible UX. These projects demonstrate how I design systems end to end and deliver production ready solutions."
   }
 };
