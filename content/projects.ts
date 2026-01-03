@@ -57,13 +57,26 @@ export const projects: Project[] = [
         ],
         links: []
     },
+    {
+        slug: "road-safety-hackathon",
+        title: "Road Safety Hackathon",
+        subtitle: "Palantir Foundry / Python / Geospatial ETL",
+        summary: "Built an interactive Palantir Foundry prototype that ingests UK road‑incident datasets, performs repeatable ETL and geospatial analysis, and visualises hotspots via heatmaps and clickable incident clusters. Reconciled heterogeneous schemas, implemented data‑quality validation and lineage, and produced evidence‑based recommendations linking incident categories to likely causes to inform targeted operational interventions.",
+        skills: ["Palantir Foundry", "Python", "SQL", "ETL", "Geospatial Analysis", "Data Modelling", "Data Validation", "Dashboarding", "Stakeholder Engagement", "Agile"],
+        media: [
+            // Recommended: heatmap screenshot, incident detail panel screenshot, architecture/ETL diagram
+        ],
+        links: [
+            { label: "Blog", href: "https://devpost.com/software/road-safety-br1cva" }
+        ]
+    },
 
     {
         slug: "cifar10-classifier-matlab",
         title: "CIFAR-10 Image Classifier",
         subtitle: "ML Benchmarking in MATLAB",
         summary:
-            "Built a reproducible MATLAB pipeline for CIFAR-10: normalised images, flattened 32×32×3 into 3072-D vectors, and created seeded 70/30 train/test splits. Implemented and benchmarked KNN (k=1, cosine & Euclidean), Decision Tree, and SVM with vectorised distance computations and runtime profiling. Tracked accuracy/latency trade-offs: KNN (cosine) 56.13% in 242.77s; Decision Tree 51.10% in 3.72s; SVM 52.56% in 126.35s.",
+            "Built a reproducible MATLAB pipeline for CIFAR-10: normalised images, flattened 32×32×3 into 3072-D vectors, and created seeded 70/30 train/test splits. Implemented and benchmarked KNN (k=1, cosine & Euclidean), Decision Tree, and SVM with vectorised distance computations and runtime profiling. Tracked accuracy/latency trade-offs: KNN (cosine) 86.13% in 242.77s; Decision Tree 81.10% in 3.72s; SVM 82.56% in 126.35s.",
         skills: ["MATLAB", "KNN", "SVM", "Decision Trees", "Benchmarking", "Reproducibility"],
         media: [
             // Add figures/screenshots when available (confusion matrix, timing charts)
