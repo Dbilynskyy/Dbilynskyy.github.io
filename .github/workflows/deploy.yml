@@ -10,7 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-# Only one Pages deployment from this repo at a time
 concurrency:
   group: "pages"
   cancel-in-progress: true
@@ -34,11 +33,6 @@ jobs:
 
       - name: Build Next.js static export
         run: npm run build
-        # In your package.json this runs:
-        #   next build && node scripts/postbuild-nojekyll.js
-        # and, because output: "export" in next.config.ts,
-        # it creates the "out/" directory.
-
       - name: Upload static site artifact
         uses: actions/upload-pages-artifact@v3
         with:

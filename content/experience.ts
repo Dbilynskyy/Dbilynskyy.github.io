@@ -65,11 +65,11 @@ export const experience: ExperienceItem[] = [
             ".NET MVC"
         ],
         links: [
-            {
-                label: "Trump Card Official",
-                href: "https://www.trumpcardofficial.com/",
-                description: "High-conversion Web3 landing page for a tokenised rewards project"
-            }
+            // {
+            //     label: "Trump Card Official",
+            //     href: "https://www.trumpcardofficial.com/",
+            //     description: "High-conversion Web3 landing page for a tokenised rewards project"
+            // }
         ],
     }
     ,
